@@ -1,0 +1,217 @@
+h1 {
+   color: hsl(263, 66%, 27%);
+   background: #9c3e3e00;
+   font-family: roboto,sans-serif;
+   text-align: center;
+   font-weight: bolder;
+   font-size: 45px;
+}
+h2 {
+   color: #283747;
+   background: #f3f3f300;
+}
+p {
+   color: rgb(255, 255, 255);
+}
+button {
+     background-color: #4CAF50; /* Green */
+     border: none;
+     color: white;
+     padding: 15px 32px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+     border-radius: 20px;
+   }
+   .button2:hover {
+     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+     transition: .5s;
+   }
+   header {
+     background-color: rgb(250, 250, 250);
+     background-image: url("image/IMG_20210704_0002.jpg");
+     background-size: 100%;
+     text-align: center;
+     height: 150px;
+     margin: 5mm;
+     background-repeat: no-repeat;
+ }
+ @media screen and (max-width: 934px){
+    header{
+    height: 120px;
+    } 
+ }
+ @media screen and (max-width: 819px){
+  header{
+  height: 90px;
+  } 
+}
+ @media screen and (max-width: 720px){
+  header{
+  height: 70px;
+  } 
+ }
+@media screen and (max-width: 565px){
+  header{
+  height: 60px;
+  } 
+}
+ul {
+   color: rgb(255, 255, 255);
+   background-color: rgb(0, 0, 0);
+   padding: 15px;
+   margin: 0mm;
+}
+li{
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 30px;
+}
+
+section{
+ background: #f3f3f300;
+  color: rgb(85, 85, 85);
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 18px;
+}
+footer{
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding: 15px;
+  text-align:initial;
+  flex-wrap: wrap;
+  font-size: 25px;
+}
+h3{
+  color: black;
+  text-align: center;
+}
+figcaption{
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+  font-weight: bolder;
+}
+a{
+  color: white;
+  text-decoration: none;
+  
+}
+a.active,a:hover{
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  transition: .5s;
+}
+nav{
+  margin:auto;
+}
+img{
+  border-radius: 50px;
+}
+img.demo {
+  filter: brightness(100%);
+}
+img.features {
+  filter: brightness(90%);
+}
+figure{
+  align-items: stretch;
+  margin: auto;
+}
+ul{
+  font-size: 25px;
+}
+:root {
+   font-size: 16px;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+}
+.navbar {
+   width: 5rem;
+   height: 100vh;
+   position: fixed;
+}
+body {
+   color: black;
+   background-color:#f3f3f3;
+   margin: 0;
+   padding: 0;
+}
+h2.samurai{
+  color: black;
+}
+h1.rimu{
+  text-align: left;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 10px rgb(107, 226, 143); 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #046b2b; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #046b2b; 
+}
+h2.samurai{
+  color: black;
+  margin: 5mm;
+}
+h1.rimu{
+  text-align: left;
+  margin: 5mm;
+}
+button.button2{
+  margin:5mm;
+ }
+#sakib{
+  margin: 5mm;
+}
+#report{
+  margin: 5mm;
+}
+#demo{
+  margin: 5mm;
+}
+h2.sami{
+  text-align:center;
+  font-size: 30px;
+}
+h1.lul{
+  font-size: 25px;
+}
+div.rai{
+  margin: 30px;
+  background: #f3f3f300;
+  color: #3C1874;
+  font-size: 30px;
+  font-family:Dosis,sans-serif;
+  font-weight: bolder;
+}
+.grid{
+  display: grid;
+  place-items: center;
+  margin-bottom: 25px;
+
+}
+.kalo{
+  margin-bottom: 5px;
+}
+@media screen and (max-width: 1024px){
+  div.rai{
+    margin: 15px;
+  }
+}
